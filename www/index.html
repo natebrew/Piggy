@@ -6,14 +6,21 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <!-- Couldn't get Angular working unless it was referenced here -->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers.js"></script>    
 
     <title>Piggy Bank</title>
   </head>
     <body>
 
-    <div ng-app="" ng-controller="homepageCtrl">
+    <div ng-app="piggyApp" ng-controller="TestCtrl">
       <ul>
         <li ng-repeat="x in names">
           {{ x.name + ', ' + x.country }}
@@ -21,14 +28,9 @@
       </ul>
     </div>
 
-
-    <!-- Controllers -->
-    <script src="js/homepageCtrl.js"></script>    
-
-
+    <!-- Libs -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
