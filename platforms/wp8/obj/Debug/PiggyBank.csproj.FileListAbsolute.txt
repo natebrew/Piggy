@@ -1,0 +1,14 @@
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\ApplicationIcon.png
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\Background.png
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\com.example.piggy.dll
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\com.example.piggy.pdb
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\AppManifest.xaml
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+c:\Users\Nathan\Projects\piggy\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\App.g.cs
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\MainPage.g.cs
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\com.example.piggy.g.resources
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\com.example.piggy.dll
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\com.example.piggy.pdb
+c:\Users\Nathan\Projects\piggy\platforms\wp8\obj\Debug\XapCacheFile.xml
