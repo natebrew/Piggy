@@ -6,35 +6,33 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <script type="text/javascript" src="js/angular.min.js"></script>
-
-    <!-- Controllers -->
-    <script src="js/controllers.js"></script>    
-
+    
     <title>Piggy Bank</title>
   </head>
-    <body>
+    <body ng-app="piggyApp">
 
-    <div ng-app="piggyApp" ng-controller="TestCtrl">
-    {{ 5 + 5 }}
+      <a href="#/home">Home</a>
+      <a href="#/splash">Splash</a>
+      <a href="#/feedback">Feedback</a>
+      <a href="#/settings">Settings</a>
 
-      <ul>
-        <li ng-repeat="x in names">
-          {{ x.name + ', ' + x.country }}
-        </li>
-      </ul>
-    </div>
+      <div ng-view>
+        {{testData}}
+      </div>
 
-
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <!-- Libs and Scripts -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+    <script type="text/javascript" src="js/filters.js"></script>
+    <script type="text/javascript" src="js/directives.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   </body>
 </html>
